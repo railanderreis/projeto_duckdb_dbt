@@ -1,0 +1,8 @@
+# profiles.yml
+retail:
+ target: dev
+ outputs:
+  dev:
+    type: duckdb
+    path: data/retail.db
+    schema: main
